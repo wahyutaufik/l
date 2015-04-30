@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e43bf28ee789a4f92dd6009d141f86cc",
+    "hash": "a78ef44df321168ba4e48f5c0d0af026",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -1356,12 +1356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lustrar/framework.git",
-                "reference": "02b7f64e544342a2f11e1bd59db0988ac451a147"
+                "reference": "e8146c2ae7dca078a8e3be93b8e05995851add6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lustrar/framework/zipball/02b7f64e544342a2f11e1bd59db0988ac451a147",
-                "reference": "02b7f64e544342a2f11e1bd59db0988ac451a147",
+                "url": "https://api.github.com/repos/lustrar/framework/zipball/e8146c2ae7dca078a8e3be93b8e05995851add6f",
+                "reference": "e8146c2ae7dca078a8e3be93b8e05995851add6f",
                 "shasum": ""
             },
             "require": {
@@ -1394,8 +1394,7 @@
                 "symfony/http-foundation": "2.6.*",
                 "symfony/http-kernel": "2.6.*",
                 "symfony/security-core": "2.6.*",
-                "symfony/var-dumper": "2.6.*",
-                "vlucas/phpdotenv": "~1.1@dev"
+                "symfony/var-dumper": "2.6.*"
             },
             "type": "library",
             "autoload": {
@@ -1409,6 +1408,7 @@
                     "src/helpers.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1424,11 +1424,7 @@
                 "l",
                 "lustrar"
             ],
-            "support": {
-                "issues": "https://github.com/lustrar/l-framework/issues",
-                "source": "https://github.com/lustrar/l-framework"
-            },
-            "time": "2015-04-30 05:34:04"
+            "time": "2015-04-30 07:15:23"
         },
         {
             "name": "monolog/monolog",
