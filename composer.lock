@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9f2a835a41a0cdd83a70ec5a8f07bafe",
+    "hash": "e43bf28ee789a4f92dd6009d141f86cc",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -506,12 +506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "2cff2cb4798c79c3551b5cb1130c873e25c7e0b3"
+                "reference": "e2fd33d33fd704c8b96cdb179ef964905b411ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/2cff2cb4798c79c3551b5cb1130c873e25c7e0b3",
-                "reference": "2cff2cb4798c79c3551b5cb1130c873e25c7e0b3",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/e2fd33d33fd704c8b96cdb179ef964905b411ed1",
+                "reference": "e2fd33d33fd704c8b96cdb179ef964905b411ed1",
                 "shasum": ""
             },
             "require": {
@@ -556,7 +556,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2015-04-29 01:07:01"
+            "time": "2015-04-29 16:03:20"
         },
         {
             "name": "illuminate/encryption",
@@ -1356,12 +1356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lustrar/framework.git",
-                "reference": "bfdac5174f40777195e3e046d6f7c41e49e81acd"
+                "reference": "02b7f64e544342a2f11e1bd59db0988ac451a147"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lustrar/framework/zipball/bfdac5174f40777195e3e046d6f7c41e49e81acd",
-                "reference": "bfdac5174f40777195e3e046d6f7c41e49e81acd",
+                "url": "https://api.github.com/repos/lustrar/framework/zipball/02b7f64e544342a2f11e1bd59db0988ac451a147",
+                "reference": "02b7f64e544342a2f11e1bd59db0988ac451a147",
                 "shasum": ""
             },
             "require": {
@@ -1428,7 +1428,7 @@
                 "issues": "https://github.com/lustrar/l-framework/issues",
                 "source": "https://github.com/lustrar/l-framework"
             },
-            "time": "2015-04-29 13:06:10"
+            "time": "2015-04-30 05:34:04"
         },
         {
             "name": "monolog/monolog",
@@ -2279,7 +2279,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lustrar/framework": 20
+        "lustrar/framework": 20,
+        "vlucas/phpdotenv": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

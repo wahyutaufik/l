@@ -1,14 +1,15 @@
 {
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/lustrar/framework"
-    }],
     "require": {
-        "lustrar/framework": "dev-master"
+        "lustrar/framework": "dev-master",
+        "vlucas/phpdotenv": "~1.1@dev"
     },
     "autoload": {
         "psr-4": {
             "App\\": "app"
+        },
+        "classmap": [
+            "database/"
+        ]
     },
     "config": {
         "preferred-install": "dist"
